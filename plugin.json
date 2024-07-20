@@ -1,0 +1,18 @@
+{
+    "id": "rizz-detector",
+    "name": "Rizz Detector",
+    "author": "@bihanmahadewa",
+    "description": "Analyzes conversations to detect and measure 'rizz' levels",
+    "image": "/assets/plugin_images/rizz-detector.png",
+    "prompt": "",
+    "memories": false,
+    "chat": false,
+    "capabilities": [
+      "external_integration"
+    ],
+    "external_integration": {
+      "triggers_on": "transcript_processed",
+      "webhook_url": "https://your-modal-url.modal.run/rizz-detector",
+      "setup_instructions_file_path": "/assets/external_plugins_instructions/rizz-detector.md"
+    }
+  }
